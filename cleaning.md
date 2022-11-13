@@ -45,3 +45,12 @@ When checking data quality, it is usually best to deal with completeness issues 
 - Join
 - Impute, if possible
 It's important to do this upfront so that subsequent data cleaning will not have to be repeated.
+
+## Address Tidiness After Structural Issues and Before Content Issues
+
+After addressing missing data the next logical step is cleaning for tidiness. Statistician, Hadley Wickham, is the pioneer of tidy data, and in his paper, 'Tidy data' (The Journal of Statistical Software, vol. 59, 2014), he makes these key points:
+
+- Tidy datasets are easy to manipulate
+- Tidy datasets with data quality issues are almost always easier to clean than untidy datasets with the same issues
+
+This means it's generally best to clean structural issues first, like tidiness, and then clean content issues, like quality.
